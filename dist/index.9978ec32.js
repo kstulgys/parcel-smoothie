@@ -71275,35 +71275,17 @@ function App() {
                 __self: this,
                 children: " Hello world!"
             }),
-            /*#__PURE__*/ _jsxRuntime.jsx(_react.Text, {
+            /*#__PURE__*/ _jsxRuntime.jsx(_react.Accordion, {
                 __source: {
                     fileName: "src/App.tsx",
                     lineNumber: 7,
                     columnNumber: 7
                 },
                 __self: this,
-                children: " Hello world!"
-            }),
-            /*#__PURE__*/ _jsxRuntime.jsx(_react.Text, {
-                __source: {
-                    fileName: "src/App.tsx",
-                    lineNumber: 8,
-                    columnNumber: 7
-                },
-                __self: this,
-                children: " Hello world!"
-            }),
-            /*#__PURE__*/ _jsxRuntime.jsx(_react.Accordion, {
-                __source: {
-                    fileName: "src/App.tsx",
-                    lineNumber: 9,
-                    columnNumber: 7
-                },
-                __self: this,
                 children: /*#__PURE__*/ _jsxRuntime.jsx(Acc, {
                     __source: {
                         fileName: "src/App.tsx",
-                        lineNumber: 10,
+                        lineNumber: 8,
                         columnNumber: 9
                     },
                     __self: this
@@ -71317,7 +71299,7 @@ function Acc() {
     return(/*#__PURE__*/ _jsxRuntime.jsxs(_react.AccordionItem, {
         __source: {
             fileName: "src/App.tsx",
-            lineNumber: 18,
+            lineNumber: 16,
             columnNumber: 5
         },
         __self: this,
@@ -71325,14 +71307,14 @@ function Acc() {
             /*#__PURE__*/ _jsxRuntime.jsx("h2", {
                 __source: {
                     fileName: "src/App.tsx",
-                    lineNumber: 19,
+                    lineNumber: 17,
                     columnNumber: 7
                 },
                 __self: this,
                 children: /*#__PURE__*/ _jsxRuntime.jsxs(_react.AccordionButton, {
                     __source: {
                         fileName: "src/App.tsx",
-                        lineNumber: 20,
+                        lineNumber: 18,
                         columnNumber: 9
                     },
                     __self: this,
@@ -71342,7 +71324,7 @@ function Acc() {
                             textAlign: "left",
                             __source: {
                                 fileName: "src/App.tsx",
-                                lineNumber: 21,
+                                lineNumber: 19,
                                 columnNumber: 11
                             },
                             __self: this,
@@ -71351,7 +71333,7 @@ function Acc() {
                         /*#__PURE__*/ _jsxRuntime.jsx(_react.AccordionIcon, {
                             __source: {
                                 fileName: "src/App.tsx",
-                                lineNumber: 24,
+                                lineNumber: 22,
                                 columnNumber: 11
                             },
                             __self: this
@@ -71363,7 +71345,7 @@ function Acc() {
                 pb: 4,
                 __source: {
                     fileName: "src/App.tsx",
-                    lineNumber: 27,
+                    lineNumber: 25,
                     columnNumber: 7
                 },
                 __self: this,

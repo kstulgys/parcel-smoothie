@@ -4,8 +4,6 @@ export function App() {
   return (
     <Stack p={20}>
       <Text> Hello world!</Text>
-      <Text> Hello world!</Text>
-      <Text> Hello world!</Text>
       <Accordion>
         <Acc />
       </Accordion>
