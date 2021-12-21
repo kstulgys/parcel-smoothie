@@ -1,3 +1,11 @@
+import { Stack, Text } from '@chakra-ui/react';
+
 export function App() {
-  return <h1>Hello world!</h1>;
+  return (
+    <Stack>
+      <Text> Hello world!</Text>
+      <Text> Hello world!</Text>
+      <Text> Hello world!</Text>
+    </Stack>
+  );
 }

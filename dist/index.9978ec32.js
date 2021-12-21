@@ -71255,15 +71255,44 @@ parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "App", ()=>App
 );
 var _jsxRuntime = require("react/jsx-runtime");
+var _react = require("@chakra-ui/react");
 function App() {
-    return(/*#__PURE__*/ _jsxRuntime.jsx("h1", {
+    return(/*#__PURE__*/ _jsxRuntime.jsxs(_react.Stack, {
         __source: {
             fileName: "src/App.tsx",
-            lineNumber: 2,
-            columnNumber: 10
+            lineNumber: 5,
+            columnNumber: 5
         },
         __self: this,
-        children: "Hello world!"
+        children: [
+            /*#__PURE__*/ _jsxRuntime.jsx(_react.Text, {
+                __source: {
+                    fileName: "src/App.tsx",
+                    lineNumber: 6,
+                    columnNumber: 7
+                },
+                __self: this,
+                children: " Hello world!"
+            }),
+            /*#__PURE__*/ _jsxRuntime.jsx(_react.Text, {
+                __source: {
+                    fileName: "src/App.tsx",
+                    lineNumber: 7,
+                    columnNumber: 7
+                },
+                __self: this,
+                children: " Hello world!"
+            }),
+            /*#__PURE__*/ _jsxRuntime.jsx(_react.Text, {
+                __source: {
+                    fileName: "src/App.tsx",
+                    lineNumber: 8,
+                    columnNumber: 7
+                },
+                __self: this,
+                children: " Hello world!"
+            })
+        ]
     }));
 }
 _c = App;
@@ -71275,6 +71304,6 @@ $RefreshReg$(_c, "App");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"ciiiV","react/jsx-runtime":"6Ds2u","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"9pz13"}]},["emU3S","gT4u9","ipvmp"], "ipvmp", "parcelRequire2b1f")
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"ciiiV","react/jsx-runtime":"6Ds2u","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"9pz13","@chakra-ui/react":"2XKM3"}]},["emU3S","gT4u9","ipvmp"], "ipvmp", "parcelRequire2b1f")
 
 //# sourceMappingURL=index.9978ec32.js.map
