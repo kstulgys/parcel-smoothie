@@ -71258,6 +71258,7 @@ var _jsxRuntime = require("react/jsx-runtime");
 var _react = require("@chakra-ui/react");
 function App() {
     return(/*#__PURE__*/ _jsxRuntime.jsxs(_react.Stack, {
+        p: 20,
         __source: {
             fileName: "src/App.tsx",
             lineNumber: 5,
@@ -71291,13 +71292,90 @@ function App() {
                 },
                 __self: this,
                 children: " Hello world!"
+            }),
+            /*#__PURE__*/ _jsxRuntime.jsx(_react.Accordion, {
+                __source: {
+                    fileName: "src/App.tsx",
+                    lineNumber: 9,
+                    columnNumber: 7
+                },
+                __self: this,
+                children: /*#__PURE__*/ _jsxRuntime.jsx(Acc, {
+                    __source: {
+                        fileName: "src/App.tsx",
+                        lineNumber: 10,
+                        columnNumber: 9
+                    },
+                    __self: this
+                })
             })
         ]
     }));
 }
 _c = App;
-var _c;
+function Acc() {
+    return(/*#__PURE__*/ _jsxRuntime.jsxs(_react.AccordionItem, {
+        __source: {
+            fileName: "src/App.tsx",
+            lineNumber: 18,
+            columnNumber: 5
+        },
+        __self: this,
+        children: [
+            /*#__PURE__*/ _jsxRuntime.jsx("h2", {
+                __source: {
+                    fileName: "src/App.tsx",
+                    lineNumber: 19,
+                    columnNumber: 7
+                },
+                __self: this,
+                children: /*#__PURE__*/ _jsxRuntime.jsxs(_react.AccordionButton, {
+                    __source: {
+                        fileName: "src/App.tsx",
+                        lineNumber: 20,
+                        columnNumber: 9
+                    },
+                    __self: this,
+                    children: [
+                        /*#__PURE__*/ _jsxRuntime.jsx(_react.Box, {
+                            flex: "1",
+                            textAlign: "left",
+                            __source: {
+                                fileName: "src/App.tsx",
+                                lineNumber: 21,
+                                columnNumber: 11
+                            },
+                            __self: this,
+                            children: "Section 1 title"
+                        }),
+                        /*#__PURE__*/ _jsxRuntime.jsx(_react.AccordionIcon, {
+                            __source: {
+                                fileName: "src/App.tsx",
+                                lineNumber: 24,
+                                columnNumber: 11
+                            },
+                            __self: this
+                        })
+                    ]
+                })
+            }),
+            /*#__PURE__*/ _jsxRuntime.jsx(_react.AccordionPanel, {
+                pb: 4,
+                __source: {
+                    fileName: "src/App.tsx",
+                    lineNumber: 27,
+                    columnNumber: 7
+                },
+                __self: this,
+                children: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+            })
+        ]
+    }));
+}
+_c1 = Acc;
+var _c, _c1;
 $RefreshReg$(_c, "App");
+$RefreshReg$(_c1, "Acc");
 
   $parcel$ReactRefreshHelpers$6c06.postlude(module);
 } finally {
